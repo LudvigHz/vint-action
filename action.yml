@@ -1,4 +1,4 @@
-name: vint
+name: vint-action
 description: 'Lint your vimscript with vint'
 inputs:
   path:
@@ -14,3 +14,7 @@ runs:
   args:
     - ${{ inputs.path }}
     - ${{ inputs.args }}
+
+branding:
+  icon: terminal
+  color: green
