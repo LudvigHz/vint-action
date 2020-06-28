@@ -1,0 +1,17 @@
+name: vint
+description: 'Lint your vimscript with vint'
+inputs:
+  include:
+    description: 'Paths to files or directories to be included by the linter.'
+    required: false
+    default: '.'
+  args:
+    description: 'Args passed to vint. See https://github.com/Vimjas/vint#command-line-config.'
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.args }}
+    - ${{ inputs.include }}
