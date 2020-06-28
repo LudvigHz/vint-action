@@ -1,6 +1,6 @@
 # Vint action
 
-Lint vimscript with [vint](https://github.com/Vimjas/vin).
+Lint vimscript with [vint](https://github.com/Vimjas/vint).
 
 ## Inputs
 
