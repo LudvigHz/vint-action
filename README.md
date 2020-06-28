@@ -4,7 +4,7 @@ Lint vimscript with [vint](https://github.com/Vimjas/vin).
 
 ## Inputs
 
-### `include`
+### `path`
 
 Paths to any files to be linted.
 
@@ -18,5 +18,5 @@ all arguments accepted by vint.
 ```yml
 uses: ludvighz/vint-action@v1
 with:
-  include: some/file.vim
+  path: some/file.vim
 ```
